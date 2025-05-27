@@ -1,0 +1,5 @@
+# Example values for terraform.tfvars
+scvmm_server   = "your-scvmm-server.domain.com"
+scvmm_username = "DOMAIN\\your-username"
+scvmm_password = "your-password"
+vm_name        = "your-vm-name"

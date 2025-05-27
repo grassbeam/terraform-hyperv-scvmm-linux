@@ -1,0 +1,19 @@
+# Example terraform.tfvars for multiple VMs
+scvmm_server_multi   = "your-scvmm-server.domain.com"
+scvmm_username_multi = "DOMAIN\\your-username"
+scvmm_password_multi = "your-password"
+
+vms = [
+  {
+    name      = "VM-WEB-01"
+    operation = "shutdown"
+  },
+  {
+    name      = "VM-DB-01"
+    operation = "shutdown"
+  },
+  {
+    name      = "VM-APP-01"
+    operation = "status"
+  }
+]
