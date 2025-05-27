@@ -1,0 +1,35 @@
+{
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.emptyWindow": false,
+  "terminal.integrated.confirmOnExit": "never",
+  "terminal.integrated.confirmOnKill": "never",
+  "terminal.integrated.allowChords": false,
+  "terminal.integrated.enablePersistentSessions": true,
+  "terminal.integrated.automationProfile.osx": {
+    "path": "/bin/zsh",
+    "args": ["-l"]
+  },
+  "extensions.ignoreRecommendations": false,
+  "github.copilot.advanced": {
+    "debug.overrideChatEngine": "gpt-4"
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "shellscript": true
+  },
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "workbench.startupEditor": "none",
+  "extensions.autoUpdate": true,
+  "extensions.autoCheckUpdates": true
+}

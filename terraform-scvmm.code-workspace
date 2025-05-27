@@ -1,0 +1,37 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.banner": "never",
+    "security.workspace.trust.startupPrompt": "never", 
+    "security.workspace.trust.emptyWindow": false,
+    "terminal.integrated.confirmOnExit": "never",
+    "terminal.integrated.confirmOnKill": "never",
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.enablePersistentSessions": true,
+    "extensions.autoUpdate": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": true,
+      "markdown": true,
+      "shellscript": true
+    },
+    "terminal.integrated.automationProfile.osx": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh"
+  },
+  "extensions": {
+    "recommendations": [
+      "github.copilot",
+      "github.copilot-chat",
+      "hashicorp.terraform"
+    ]
+  }
+}
